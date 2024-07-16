@@ -1,0 +1,27 @@
+### GET POSTS
+GET http://localhost:3000/posts
+Content-Type: application/json
+
+### CREATE POST
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "davvero figo",
+    "content": "incredibilmente figo"
+}
+
+### DELETE POST
+DELETE http://localhost:3000/posts/4
+
+### UPDATE POST
+PUT http://localhost:3000/posts/3
+Content-Type: application/json
+
+{
+    "title": "una cagata pazzesca",
+    "content": "non sto scherzando"
+}
+
+### READ ID POST
+GET http://localhost:3000/posts/2
